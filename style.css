@@ -336,16 +336,14 @@
     color: white;
     padding-top: 15px;
 }
-#portfolio p{
-    color: white;
-}
-#portfolio .card{
+
+#portfolio .card a{
     transition: 0.5s ease;
     cursor: pointer;
 }
-#portfolio .card:hover{
+#portfolio .card a:hover{
     transform: translateY(-10px);
-}
+} 
 @media screen and (max-width:770px){
     #portfolio{
         height: 330vh;
