@@ -73,7 +73,7 @@
 .home .img img{
     width: 76%;
     margin-left: 30px;
-    margin-top: 11%;
+    margin-top: 15%;
 }
 .home .content{
     flex: 1 1 400px;
@@ -115,23 +115,7 @@
     font-weight: bold;
     letter-spacing: 2px;
 }
-#btn1{
-    width: 150px;
-    height: 30px;
-    letter-spacing: 3px;
-    border-radius: 5px;
-    color: #ff9900;
-    border: 2px solid #ff9900;
-    background: transparent;
-    margin-top: 20px;
-    font-weight: bold;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-#btn1:hover{
-    background-color: #ff9900;
-    color: black;
-}
+
 @media screen and (max-width:844px){
     .home-section{
         height: 146vh;
@@ -209,6 +193,10 @@
     color: black;
     transition: 0.5s ease;
     cursor: pointer;
+}
+#btncv2 a{
+    color: black;
+    text-decoration: none;
 }
 #btncv2:hover{
     background-color: #ff9900;
